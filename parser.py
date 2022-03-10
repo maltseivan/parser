@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-URL = 'https://habr.com/ru/company/first/blog/653781/'
+URL = 'https://habr.com/ru/company/otus/blog/654767/'
 HEADERS = {'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Mobile Safari/537.36', 'accept': '*/*'}
 
 
