@@ -41,8 +41,8 @@ def get_content(html):
     with open(name, 'w', encoding='utf-8') as file:
         json.dump(text, file, indent=3, ensure_ascii=False)
 
-    for item in text:
-        print(item)
+    #for item in text:
+    #    print(item)
 
 def parse():
     result = get_html(URL)
